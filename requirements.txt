@@ -1,0 +1,12 @@
+Flask
+gunicorn
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+shap
+ipywidgets
+jupyter

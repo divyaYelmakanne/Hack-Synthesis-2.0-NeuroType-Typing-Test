@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neural Type Tracker</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%), url('https://i.pinimg.com/736x/91/70/17/917017949818ccfe4475e5f7f65979b6.jpg') no-repeat center center fixed;
+            background-blend-mode: overlay;
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: #222;
+        }
+        .overlay {
+            background: linear-gradient(120deg, rgba(255, 183, 197, 0.85) 0%, rgba(183, 233, 255, 0.85) 100%);
+            padding: 50px 40px;
+            border-radius: 18px;
+            max-width: 650px;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+        }
+        .logo {
+            font-size: 48px;
+            background: linear-gradient(90deg, #ff6da2, #23bbad, #fcb045, #7f53ac);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            font-size: 20px;
+            background: linear-gradient(90deg, #23bbad, #fcb045, #ff6da2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        .description {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.7;
+            margin-bottom: 30px;
+            padding: 0 15px;
+        }
+        input[type="text"] {
+            padding: 14px;
+            width: 80%;
+            max-width: 320px;
+            border-radius: 8px;
+            border: 2px solid #ff6da2;
+            font-size: 17px;
+            margin-bottom: 18px;
+            outline: none;
+            background: linear-gradient(90deg, #fffbe7 0%, #e0f7fa 100%);
+            color: #222;
+            transition: border 0.2s, box-shadow 0.2s;
+        }
+        input[type="text"]:focus {
+            border: 2px solid #7f53ac;
+            box-shadow: 0 0 8px #fcb04555;
+        }
+        button {
+            padding: 14px 36px;
+            border-radius: 8px;
+            border: none;
+            background: linear-gradient(90deg, #ff6da2, #fcb045, #23bbad);
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 16px rgba(255, 109, 162, 0.15);
+            transition: background 0.2s, transform 0.2s;
+        }
+        button:hover {
+            background: linear-gradient(90deg, #7f53ac, #23bbad, #fcb045);
+            transform: translateY(-2px) scale(1.04);
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 13px;
+            color: #7f53ac;
+            text-shadow: 0 1px 2px #fffbe7;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="logo">NeuroType</div>
+        <div class="tagline">Typing Biomarkers for Early Parkinson’s Detection</div>
+        <div class="description">
+            <p><strong>NeuroType</strong> is an AI-powered typing test designed to detect subtle motor signs associated with Parkinson’s Disease by analyzing how you type.</p>
+            <p>In just 5 minutes, by typing a simple paragraph, NeuroType captures your typing rhythm, speed, and keypress patterns to generate an early assessment of Parkinsonian signs—non-invasively and remotely.</p>
+            <p>This tool is intended as an assistive screening aid, not a diagnosis. Your privacy is respected at all times.</p>
+        </div>
+        <form method="POST">
+            <input type="text" name="username" placeholder="Enter your name" required>
+            <br>
+            <button type="submit">Start Typing Test</button>
+        </form>
+    </div>
+    <footer>
+        &copy; 2025 NeuroType. All rights reserved.
+    </footer>
+</body>
+</html>
