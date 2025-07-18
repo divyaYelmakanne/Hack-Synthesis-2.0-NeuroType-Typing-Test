@@ -138,7 +138,7 @@ streamlit
 ---
 
 ## 📸 Screenshots
-screenshots of web app are here for reference inside the repo.
+screenshots and video of web app are here for reference inside the repo.
 
 ---
 
