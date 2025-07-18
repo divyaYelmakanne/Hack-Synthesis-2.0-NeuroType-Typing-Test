@@ -138,12 +138,7 @@ streamlit
 ---
 
 ## 📸 Screenshots
-Add screenshots of your app here for reference.
-
----
-
-## 📬 Contact & Support
-For questions, open an issue or contact the maintainer.
+screenshots of web app are here for reference inside the repo.
 
 ---
 
